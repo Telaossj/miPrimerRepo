@@ -2,59 +2,75 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
 }
 
 header, main, footer {
-    width: 80%
-}
-section {
-    display: flex;
-    flex-direction: column;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    color:blue;
-    margin: 0;
-    padding: 0;    
-}
 header {
-    background-color: beige;
-    padding: 20px;
+    background-color: dodgerblue;
+    color: white;
     text-align: center;
+    padding: 20px;
+    border-radius: 8px;
 }
+
+header small {
+    display: block;
+    font-size: 14px;
+    color: lightgray;
+}
+
 main {
     padding: 20px;
 }
-section {
-    margin-bottom: 20px;
+
+.product-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    background: snow;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid dodgerblue;
 }
 
 footer {
-    background-color: beige;
-    color: blueviolet;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
     padding: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
     text-align: center;
 }
-a {
-    color: black;
-    text-decoration: none;
-}
+
 a:hover {
     text-decoration: underline;
-}
-.Reloj{
-    color: black;
-}
-h2 {
-    color: navy;
-}
-strong {
-    font-weight: bold;
-}
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
 }
