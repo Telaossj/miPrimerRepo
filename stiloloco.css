@@ -30,11 +30,7 @@ header {
 header small {
     display: block;
     font-size: 14px;
-<<<<<<< HEAD
     color: lightgray;
-=======
-    color: lightgray;   
->>>>>>> a1ce99bf1c3c2f802ac05b8f5d503309d1eface7
 }
 
 main {
@@ -64,7 +60,6 @@ main {
 footer {
     background-color: dodgerblue;
     color: white;
-<<<<<<< HEAD
     text-align: center;
     padding: 20px;
     border-radius: 8px;
@@ -73,24 +68,11 @@ footer {
 a {
     color: dodgerblue;
     text-decoration: none;
-=======
->>>>>>> a1ce99bf1c3c2f802ac05b8f5d503309d1eface7
     text-align: center;
     padding: 20px;
     border-radius: 8px;
 }
 
-<<<<<<< HEAD
 a:hover {
     text-decoration: underline;
 }
-=======
-a {
-    color: dodgerblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
->>>>>>> a1ce99bf1c3c2f802ac05b8f5d503309d1eface7
